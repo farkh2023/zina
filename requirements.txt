@@ -1,0 +1,31 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Markdown / NLP ────────────────────────────────────────────────────────────
+markdown==3.6
+mistune==3.0.2
+nltk==3.8.1
+spacy==3.7.4
+
+# ── Audio (TTS) ───────────────────────────────────────────────────────────────
+openai==1.30.1           # TTS via OpenAI API (tts-1 / tts-1-hd)
+pydub==0.25.1            # audio manipulation
+ffmpeg-python==0.2.0     # ffmpeg bindings
+
+# ── Image generation ──────────────────────────────────────────────────────────
+# openai already included above (DALL-E 3)
+Pillow==10.3.0
+requests==2.32.3
+
+# ── Video assembly ────────────────────────────────────────────────────────────
+moviepy==1.0.3
+
+# ── YouTube upload ────────────────────────────────────────────────────────────
+google-api-python-client==2.131.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm==4.66.4
+colorlog==6.8.2
