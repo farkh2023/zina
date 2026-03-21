@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "YouTube AI Pipeline (dry run)",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["pipeline.py", "--no-upload", "-v"],
+      "port": 8000
+    }
+  ]
+}
