@@ -1,0 +1,21 @@
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.ipynb_checkpoints/
+
+# Fichiers volumineux de données
+*.zip
+*.tar
+*.tar.gz
